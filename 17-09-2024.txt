@@ -1,0 +1,74 @@
+Hybrid Framework
+---------------------
+1.Implementation
+2.Execution
+3.Maintance
+
+Data driven testing--> 
+Step-1: dependecies is pom.xml-->apache poi, ooxml
+Step-2: Utilities package--> XLUtils Class
+Step-3: Created on xl sheet--> data--> valid data and invalid data--> test data package
+Step-4: Login page--> constructor, web elements, actions
+Step-5: login testcase--> create a object login page and call that methods, 
+Step-6: execution--> testng.xml
+
+2.Execution
+------------
+we need execute our test cases in different ways
+
+1.pom.xml
+2.Command prompt(cmd)
+3.run.bat(windows batch file)
+4.Jenkins
+
+1.pom.xml
+-------------
+1. add two plugins maven-compiler-plugin, maven-surefire-plugin, testng.xml 
+build-plugins-plugin-configuration-suiteXmlFiles-testng.xml
+
+Step-1:download apache maven from goggle
+Step-2: extract that file--create folder and put that file
+Step-3: in c drive--go to that path-->give CMD--mvn -version
+Step-4: Before execute that test case from testng.xml
+Step-5: execute from pom.xml file--> Run as-> Maven test
+
+2.Command prompt(cmd)
+-----------------------------
+Step-1: go to project location
+Step-2: open command prompt
+Step-3: mvn install
+
+3.run.bat(windows batch file)
+--------------------------------
+Step-1: go to project location
+Step-2: Right click-->New-->Text document-
+Step-3: cd(change directory) project file path, mvn install
+Step-4: file save as--> all files--> run.bat-->save
+
+4.Jenkins
+------------
+1.Jenkins is seamless execution tool--> it doesn't show the UI part
+2.It is open-soure CI/CD tool
+   CI-Continuos integration 
+   CD-Contuinuos deployement
+devops(developement+operations)
+
+Jenkins execution
+---------------------
+1.pom.xml
+2.build periodically(cron syntaxes)
+
+Jenkins dowload
+--------------------
+1.Application
+2.Jenkins.war
+
+Step-1: we need to download Jenkins.war
+Step-2: create a folder and open cmd
+Step-3: commands--> java -jar jenkins.war--> server starts
+Step-4: it will generate one password save it.
+Step-5: install some plugins--(github, git, mavenIntragation)
+Step-6: Tools configuration-->(JDK, maven configuration, git configuration)
+
+
+

@@ -1,0 +1,51 @@
+Hybrid Framework
+-------------------
+1.Implementation
+2.Execution
+3.Mainatnace
+
+Execution
+----------------
+1.POM.xml
+2.cmd
+3.run.bat (windows batch file)
+4.Jenkins
+--------------
+Seamless execution
+CI/CD tool-- Jenkins
+
+1.pom.xml
+2.Build periodically(cron syntaxes)
+------------------------------------------------------------------------------
+Maintance 
+------------
+
+we need to main our test scripts we need some location, now days many more organization using some contro version tools
+
+Example: git, github, bit bucket, svn
+Control versions tools- git hub
+
+Git Hub:( TL-Central repository)
+---------
+-->It is a central reposetary on TL create the reposetory and team members ivite they will work on in it
+
+git(Local repository)
+---------------------
+It is local reposetory every team member had a local reposetory.
+
+Install git
+-----------
+1.git download for windows-- seach in google
+2. Select the windows download--> 32 or 64--> based on system type
+3.You need to install-->next click
+4. you need to place in C drive,  right see the options open git GUI, git Bash option
+
+Git Hub
+---------
+1.Create a account-sakethyallanki1008@gmial.com-Saketh@12345678-Sakethyallanki
+
+
+
+
+
+
