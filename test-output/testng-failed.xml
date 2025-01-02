@@ -8,12 +8,12 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com_Luma_Testcases.TC_02_Luma_Login">
+      <class name="com_Luma_Testcases.TC_01_Luma_Registration">
         <methods>
-          <include name="loginTest" invocation-numbers="0 1 2"/>
+          <include name="LumaRegistrationtest"/>
           <include name="openApplication"/>
         </methods>
-      </class> <!-- com_Luma_Testcases.TC_02_Luma_Login -->
+      </class> <!-- com_Luma_Testcases.TC_01_Luma_Registration -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
